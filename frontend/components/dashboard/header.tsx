@@ -33,7 +33,7 @@ export function Header() {
       <div className="flex items-center gap-5">
 
         {/* Organization */}
-        <button
+        {/* <button
           type="button"
           className="hidden items-center gap-2 text-[13px] text-[#666] transition-colors hover:text-[#171717] md:flex"
         >
@@ -41,7 +41,7 @@ export function Header() {
           India
         </button>
 
-        <div className="h-5 w-px bg-[#e5e5e5]" />
+        <div className="h-5 w-px bg-[#e5e5e5]" /> */}
 
         {/* Notification */}
         <button

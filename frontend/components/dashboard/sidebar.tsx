@@ -21,6 +21,35 @@ const menuItems = [
     icon: LayoutDashboard,
   },
   {
+    title: "Add Company Information",
+    icon: Users,
+  },
+  
+//   {
+//     title: "Payroll",
+//     icon: Wallet,
+//   },
+  {
+    title: "Create Documents",
+    icon: FileText,
+  },
+//   {
+//     title: "Performance",
+//     icon: ClipboardCheck,
+//   },
+//   {
+//     title: "Reports",
+//     icon: BarChart3,
+//   },
+{
+    title: "Attendance",
+    icon: Clock3,
+},
+{
+    title: "Leave",
+    icon: CalendarDays,
+  },
+{
     title: "Employees",
     icon: Users,
     children: [
@@ -28,30 +57,6 @@ const menuItems = [
       "Departments",
       "Designations",
     ],
-  },
-  {
-    title: "Attendance",
-    icon: Clock3,
-  },
-  {
-    title: "Leave",
-    icon: CalendarDays,
-  },
-  {
-    title: "Payroll",
-    icon: Wallet,
-  },
-  {
-    title: "Documents",
-    icon: FileText,
-  },
-  {
-    title: "Performance",
-    icon: ClipboardCheck,
-  },
-  {
-    title: "Reports",
-    icon: BarChart3,
   },
 ];
 
